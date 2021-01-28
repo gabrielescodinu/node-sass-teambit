@@ -1,0 +1,36 @@
+// credits
+.credits {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        h1 {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        a {
+            margin: 10px 0px 10px 0px;
+            font-weight: bold;
+            &:hover {
+                color: $colorHover;
+            }
+        }
+    }
+    img {
+        padding-right: 20px;
+    }
+    span {
+        color: #2C4792;
+        font-weight: bold;
+    }
+    p {
+        width: 200px;
+        padding-top: 40px;
+    }
+}
